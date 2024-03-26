@@ -1,0 +1,39 @@
+:root {
+    --clr-white : hsl(0, 0%, 100%);
+    --clr-gray : hsl(212, 45%, 89%);
+    --clr-grayblue : hsl(220, 15%, 55%);
+    --clr-darkblue : hsl(218, 44%, 22%);
+    --font-para : 15px;
+    --font-light : 400;
+    --font-heavy : 700;
+    --img-size : 200px;
+}
+
+body {
+    font-family: outfit , sans-serif;
+    background: var(--clr-gray);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 275px;
+    margin: 0 auto;
+    background-color: var(--clr-white);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+
+
+.image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.text {
+    padding: 5px;
+}
